@@ -11,7 +11,8 @@
     "plugin:import/errors",
     "plugin:import/warnings"
   ],
-  "parser": "babel-eslint",
+  "parser": "@babel/eslint-parser",
+  "plugins": ["@babel"],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module",
